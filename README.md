@@ -20,17 +20,17 @@ Purpose: This code is designed to automatically mute notifications for all Teleg
 First, clone the repository or download the script.
 
 To install the required dependencies, run:
-
+```bash
 pip install telethon
-
+```
 🔑 Setup
 
 Before running the script, you need to provide:
-
+```
 - api_id
 - api_hash
 - phone_number
-
+```
 You can obtain your api_id and api_hash from https://my.telegram.org under the API Development Tools section.
 
 ⚠️ Important: Make sure you keep your api_id and api_hash safe and do not share them publicly.
@@ -38,9 +38,9 @@ You can obtain your api_id and api_hash from https://my.telegram.org under the A
 ⚙️ Usage
 
 Run the script using:
-
+```bash
 python main.py
-
+```
 - On the first run, a verification code will be sent to your Telegram account to confirm your login.
 - After login, the script will automatically mute notifications for all channels and supergroups you are a member of.
 - Channels or groups you don't have access to (forbidden) will be skipped automatically.
